@@ -1,0 +1,33 @@
+
+.CV{
+    border: 1rem solid;
+}
+
+
+
+
+
+
+
+
+body5{
+    background-image: url(photocontacte.jpg);
+}
+
+body {
+    text-align: center;
+background-color: aquamarine;
+    background-image: url(image/photoacceuil.png); 
+}
+
+.img1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+body1{
+    text-align: center;
+    background-color: sandybrown
+}
+.img2{
+    margin: 5em;
+}

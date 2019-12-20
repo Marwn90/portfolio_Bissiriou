@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Menu-1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index1.html">PRESENTATION</a>
+                <a href="CV.pdf">CV</a>
+                <a href="#">MES PROJETS</a>
+                <a href="Contact-1.html">Contact</a>
+              </div>
+             <div id="mydemo" class="demo">
+              <h2> MARTIN BISSIRIOU</h2>
+             </div>
+              <p></p>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; ACCUEIL</span>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+              </script>
+    
+</body>
+</html>
